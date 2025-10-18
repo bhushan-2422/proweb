@@ -1,18 +1,24 @@
 {
   "name": "proweb",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI tool to quickly scaffold backend projects with a ready-made template",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "proweb": "./bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bin":{
-    "proweb":"./bin/index.js"
-  },
+  "keywords": [
+    "cli",
+    "backend",
+    "scaffold",
+    "template",
+    "nodejs"
+  ],
+  "author": "Bhushan <your-email@example.com>",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^12.10.0"
   }
